@@ -1,0 +1,88 @@
+
+
+:root {
+    --Dark-Violet: hsl(256, 26%, 20%);
+    --Grayish-Blue: hsl(216, 30%, 68%);
+
+    --Very-Dark-Violet: hsl(270, 9%, 17%);
+    --Dark-Grayish-Violet: hsl(273, 4%, 51%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+
+    --font-normal: 400;
+    --font-bold: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: 16px;
+}
+
+main
+
+a { text-decoration: none; }
+
+/*-----------------------------------*\
+  #HEADER
+\*-----------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .mobile-menu {
+    position: relative;
+    display: block;
+    width: 35px;
+    background: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+header .mobile-menu .bar, 
+header .mobile-menu:after, 
+header .mobile-menu:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: var(--Very-dark-blue);
+    border-radius: 5px;
+    margin: 6px 0;
+    transition: .4s;
+}
+
+
+
+header nav { display: none; }
+
+/*-----------------------------------*\
+  #HEADING SECTION
+\*-----------------------------------*/
+
+
+/*-----------------------------------*\
+  #3 COLUMN SECTION
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+  #INFO CARD SECTION
+\*-----------------------------------*/
+
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
